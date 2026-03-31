@@ -1,16 +1,36 @@
-# React + Vite
+# 🧩 Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, interactive web-based **Memory Game** where players need to match pairs of cards to win. This project showcases clean UI design and efficient state management in the frontend.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+You can play the game directly in your browser here:
+👉 **[Play Memory Game](https://habbatianis.github.io/Memory-Game/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎮 How to Play
+1. **Objective:** Find all matching pairs of cards in the shortest time or fewest moves possible.
+2. **Flip:** Click on any card to reveal the image/symbol beneath it.
+3. **Match:** Click a second card. If it matches the first, both stay face up.
+4. **Mismatch:** If they don't match, they will flip back over after a short delay.
+5. **Win:** The game ends when all pairs have been successfully matched!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+* **Responsive Design:** Playable on desktops, tablets, and mobile phones.
+* **Smooth Animations:** Hover effects and card-flip transitions for a polished feel.
+* **Score Tracking:** (Optional: Mention if you have a timer or move counter).
+* **Reset Functionality:** Start a new game instantly with a single click.
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
+* **HTML5** - For the game structure.
+* **CSS3** - For styling and 3D flip animations.
+* **JavaScript (ES6+)** - For the game logic and card shuffling.
+* *(Optional: Mention React/Django if they are used in this specific sub-folder).*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Local Development
+
+If you want to run this project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/habbatianis/Memory-Game.git](https://github.com/habbatianis/Memory-Game.git)
